@@ -1,5 +1,7 @@
 ## Fluent-Contract-Deployment-On-Devnet
-
+- Project twitter : [fluentxyz](https://x.com/fluentxyz)
+- Follow me : [zunxbt](https://x.com/ZunXBT)
+---
 - Open [Codespace](https://github.com/codespaces) or [Gitpod](https://gitpod.io/workspaces)
 - Use Burner Wallet (Wallet which have no real funds)
 - Request fluent faucet here : [Faucet Link](https://faucet.dev.thefluent.xyz/)
