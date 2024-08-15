@@ -1,25 +1,29 @@
 #!/bin/bash
 
-
 BOLD=$(tput bold)
 RESET=$(tput sgr0)
 YELLOW=$(tput setaf 3)
 
-
 print_command() {
   echo -e "${BOLD}${YELLOW}$1${RESET}"
 }
+echo
+echo
 
-
+cat << "EOF"
 ███████ ██    ██ ███    ██ ██   ██ ██████  ████████ 
    ███  ██    ██ ████   ██  ██ ██  ██   ██    ██    
   ███   ██    ██ ██ ██  ██   ███   ██████     ██    
  ███    ██    ██ ██  ██ ██  ██ ██  ██   ██    ██    
 ███████  ██████  ██   ████ ██   ██ ██████     ██    
-                                                    
-                                                    
+EOF
+
+echo
+echo
+
 sleep 2
 
+# Change to home directory
 cd $HOME
 
 print_command "Installing gblend tool..."
@@ -31,8 +35,7 @@ gblend
 print_command "Installing dependencies..."
 npm install
 
-
-print_command "Installing dotenv pacakge..."
+print_command "Installing dotenv package..."
 npm install dotenv
 
 print_command "Removing hardhat.config.js file..."
