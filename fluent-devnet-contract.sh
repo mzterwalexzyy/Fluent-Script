@@ -40,7 +40,7 @@ print_command "Installing gblend tool..."
 cargo install gblend
 
 print_command "Running gblend..."
-gblend
+gblend --blendedapp
 
 print_command "Installing dependencies..."
 npm install
