@@ -9,14 +9,3 @@
 ```bash
 wget https://raw.githubusercontent.com/dxzenith/Fluent-Script/main/fluent-devnet-contract.sh && chmod +x fluent-devnet-contract.sh && ./fluent-devnet-contract.sh
 ```
-- After using `gblend` command, it will ask you something like this
-```bash
-Welcome to gblend dev tool 🚀
-
-Choose your setup:
-> Hardhat JavaScript (Solidity & Vyper)
-  Hardhat TypeScript (Solidity & Vyper)
-  Rust
-  Exit
-```
-- Press `Enter` in the keyboard
