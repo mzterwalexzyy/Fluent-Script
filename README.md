@@ -9,3 +9,4 @@
 ```bash
 wget https://raw.githubusercontent.com/dxzenith/Fluent-Script/main/fluent-devnet-contract.sh && chmod +x fluent-devnet-contract.sh && ./fluent-devnet-contract.sh
 ```
+- You can check your deployed contract in this [explorer](https://blockscout.dev.thefluent.xyz/)
