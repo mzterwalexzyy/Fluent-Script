@@ -1,0 +1,36 @@
+{
+    "name": "blendedapp",
+    "version": "1.0.0",
+    "description": "Random num blendedapp ( Rusy & Solidity)",
+    "main": "index.js",
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "deploy": "npx hardhat deploy"
+    },
+    "keywords": [
+        "chess",
+        "puzzle",
+        "smart contract"
+    ],
+    "author": "d1r1",
+    "license": "ISC",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-ethers": "^3.0.7",
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "@nomicfoundation/hardhat-verify": "^2.0.9",
+        "@openzeppelin/contracts": "^5.0.2",
+        "@typechain/ethers-v6": "^0.5.1",
+        "@typechain/hardhat": "^9.1.0",
+        "@types/node": "^20.16.2",
+        "dotenv": "^16.4.5",
+        "hardhat": "^2.22.9",
+        "hardhat-deploy": "^0.12.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "@nomiclabs/hardhat-vyper": "^3.0.7",
+        "ethers": "^6.13.2",
+        "fs": "^0.0.1-security"
+    }
+}
